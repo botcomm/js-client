@@ -1,0 +1,36 @@
+{
+  "name": "@botcomm/sdk",
+  "version": "0.1.0",
+  "description": "Official JavaScript SDK for building BotComm bots",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botcomm/js-client.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "bot.js",
+    "auth.js",
+    "transport.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "botcomm",
+    "bot",
+    "chat",
+    "sse"
+  ]
+}
