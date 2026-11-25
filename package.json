@@ -1,6 +1,6 @@
 {
   "name": "@botcomm/sdk",
-  "version": "0.1.0",
+  "version": "0.20261125.1",
   "description": "Official JavaScript SDK for building BotComm bots",
   "license": "MIT",
   "repository": {
